@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
+  <!-- Heart 1 (top left) -->
+  <path d="M168.52 72.03c-39.79 0-72.03 32.24-72.03 72.03 0 47.89 42.22 88.68 72.03 119.21 29.81-30.53 72.03-71.32 72.03-119.21 0-39.79-32.24-72.03-72.03-72.03z" stroke="currentColor" stroke-width="16" fill="none"/>
+  <path d="M168.52 92.03c-28.25 0-51.03 22.78-51.03 51.03 0 33.94 29.91 62.81 51.03 84.42 21.12-21.61 51.03-50.48 51.03-84.42 0-28.25-22.78-51.03-51.03-51.03z" fill="currentColor"/>
+
+  <!-- Hair Strand 1 -->
+  <path d="M220 50c20-30 60-30 80 0 10 15 5 35-5 50-15 25-30 50-40 80-5 15-10 30-10 50" stroke="currentColor" stroke-width="24" stroke-linecap="round" fill="none"/>
+
+  <!-- Hair Strand 2 -->
+  <path d="M280 40c25-25 70-20 90 10 12 18 8 42-3 60-18 30-35 60-45 95-6 20-8 40-5 60" stroke="currentColor" stroke-width="24" stroke-linecap="round" fill="none"/>
+
+  <!-- Hair Strand 3 -->
+  <path d="M350 60c30-20 75-10 90 20 10 20 5 45-8 65-20 32-40 65-50 105-8 25-10 50-5 75" stroke="currentColor" stroke-width="24" stroke-linecap="round" fill="none"/>
+
+  <!-- Hair Strand 4 (wavy) -->
+  <path d="M420 100c20 0 40 10 50 30 8 15 8 35 0 50-12 22-25 45-35 70-8 20-12 42-10 65 2 20 8 40 18 58" stroke="currentColor" stroke-width="24" stroke-linecap="round" fill="none"/>
+
+  <!-- Face silhouette -->
+  <path d="M460 140c15 25 20 55 15 85-8 50-30 95-60 130-25 30-55 50-90 60-30 8-65 8-95 0-35-10-65-30-90-60-30-35-52-80-60-130-5-30 0-60 15-85" stroke="currentColor" stroke-width="28" stroke-linecap="round" fill="none"/>
+
+  <!-- Heart 2 (bottom right) -->
+  <path d="M360.48 370.03c-39.79 0-72.03 32.24-72.03 72.03 0 47.89 42.22 88.68 72.03 119.21 29.81-30.53 72.03-71.32 72.03-119.21 0-39.79-32.24-72.03-72.03-72.03z" stroke="currentColor" stroke-width="16" fill="none"/>
+  <path d="M360.48 390.03c-28.25 0-51.03 22.78-51.03 51.03 0 33.94 29.91 62.81 51.03 84.42 21.12-21.61 51.03-50.48 51.03-84.42 0-28.25-22.78-51.03-51.03-51.03z" fill="currentColor"/>
+
+  <!-- Small circle 1 -->
+  <circle cx="46" cy="125" r="20" fill="currentColor"/>
+
+  <!-- Small circle 2 -->
+  <circle cx="456" cy="405" r="20" fill="currentColor"/>
+
+  <!-- Hair Strand 5 (left side wavy) -->
+  <path d="M100 190c-15 30-25 65-28 100-2 25 0 50 5 75 8 35 22 68 42 98" stroke="currentColor" stroke-width="24" stroke-linecap="round" fill="none"/>
+
+  <!-- Hair Strand 6 (left side wavy 2) -->
+  <path d="M140 220c-18 35-30 75-32 115-2 28 2 55 10 82 10 38 28 73 52 103" stroke="currentColor" stroke-width="24" stroke-linecap="round" fill="none"/>
+
+  <!-- Hair Strand 7 (left side wavy 3) -->
+  <path d="M180 240c-20 38-32 80-35 125-2 30 3 60 12 88 12 40 32 77 58 108" stroke="currentColor" stroke-width="24" stroke-linecap="round" fill="none"/>
+</svg>
