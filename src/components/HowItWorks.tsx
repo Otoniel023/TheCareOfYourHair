@@ -1,11 +1,12 @@
 import { useEffect, useRef, useState } from 'react'
-import productoImage from '../assets/images/producto.png'
+import { Droplets, Sparkles, Timer } from 'lucide-react'
+import productoImage from '../assets/images/producto.jpeg'
 
 interface Step {
   number: string
   title: string
   description: string
-  icon: string
+  icon: React.ComponentType<{ className?: string }>
 }
 
 export default function HowItWorks() {
@@ -37,20 +38,20 @@ export default function HowItWorks() {
     {
       number: '01',
       title: 'Aplica',
-      description: 'Aplica el tratamiento sobre el cabello limpio y húmedo, distribuyendo uniformemente desde la raíz hasta las puntas.',
-      icon: '💧'
+      description: 'Aplica el gotero sobre el cabello limpio y húmedo, distribuyendo uniformemente desde la raíz hasta las puntas.',
+      icon: Droplets
     },
     {
       number: '02',
       title: 'Masajea',
       description: 'Masajea suavemente el cuero cabelludo con movimientos circulares durante 2-3 minutos para activar la circulación.',
-      icon: '💆‍♀️'
+      icon: Sparkles
     },
     {
       number: '03',
       title: 'Disfruta',
       description: 'Deja actuar durante 15-20 minutos y enjuaga. Úsalo 2-3 veces por semana para resultados óptimos.',
-      icon: '⏱️'
+      icon: Timer
     }
   ]
 
@@ -109,8 +110,8 @@ export default function HowItWorks() {
                 <div className="flex-shrink-0">
                   <div className="relative w-16 h-16 md:w-20 md:h-20">
                     <div className="absolute inset-0 bg-gradient-to-br from-[#D4B063] to-[#3E5A35] rounded-full opacity-10" />
-                    <div className="relative flex items-center justify-center h-full text-3xl md:text-4xl">
-                      {step.icon}
+                    <div className="relative flex items-center justify-center h-full">
+                      <step.icon className="w-8 h-8 md:w-10 md:h-10 text-[#D4B063]" />
                     </div>
                     <div className="absolute -bottom-2 -right-2 bg-[#D4B063] text-white text-xs font-bold px-2 py-1 rounded-full font-['Playfair_Display']">
                       {step.number}

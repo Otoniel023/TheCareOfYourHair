@@ -52,9 +52,20 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-white/10 my-8" />
 
-        {/* Copyright */}
-        <div className="text-center text-sm text-white/50">
+        {/* Copyright & Powered By */}
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/50">
           <p>&copy; {currentYear} The Care of Your Hair. Todos los derechos reservados.</p>
+          <p className="flex items-center gap-1.5">
+            Powered by{' '}
+            <a
+              href="https://www.linkedin.com/in/otoniel-martinez-net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/70 hover:text-[#D4B063] transition-colors duration-300 underline"
+            >
+              Otoniel Martinez
+            </a>
+          </p>
         </div>
       </div>
     </footer>

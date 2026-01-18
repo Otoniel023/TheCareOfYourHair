@@ -45,9 +45,11 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#D4B063] tracking-tight font-['Playfair_Display']">
-              WM
-            </h2>
+            <img 
+              src="/src/assets/images/waderlynlogo.png" 
+              alt="Waderlyn Martinez Logo" 
+              className="h-20 w-32 object-contain"
+            />
           </div>
 
           {/* Desktop Menu */}

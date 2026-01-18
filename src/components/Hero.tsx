@@ -33,7 +33,7 @@ export default function Hero() {
 
             {/* Description */}
             <p className="text-white/90 text-sm sm:text-base md:text-lg mb-5 sm:mb-6 md:mb-8 font-light leading-relaxed max-w-md">
-              Descubre el poder de la naturaleza con nuestro tratamiento capilar premium.
+              Descubre el poder de la naturaleza con nuestro gotero capilar premium.
               Formulado con ingredientes naturales para revitalizar y fortalecer cada hebra.
             </p>
 
