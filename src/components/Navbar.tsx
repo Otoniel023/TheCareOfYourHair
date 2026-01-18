@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import waderlynLogo from '../assets/images/waderlynlogo.png'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -46,7 +47,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <img 
-              src="/src/assets/images/waderlynlogo.png" 
+              src={waderlynLogo} 
               alt="Waderlyn Martinez Logo" 
               className="h-20 w-32 object-contain"
             />
